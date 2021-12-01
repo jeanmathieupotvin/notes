@@ -16,6 +16,6 @@ interface. The format of the compiled document is *Github Flavored Markdown*.
 
 ## Errors and feedback
 
-If you read these notes and found an error you would like to communicate,
-please [write an issue](https://github.com/jeanmathieupotvin/core-notes/issues).
+If you found an error and would like to either fix it or communicate it,
+please [submit an issue](https://github.com/jeanmathieupotvin/core-notes/issues).
 I will gladly answer. Many thanks!
