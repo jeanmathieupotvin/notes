@@ -85,8 +85,8 @@ of the time.
 Hexadecimal numbers are numbers represented under base 16. It is similar to
 other bases such as decimal (base 10) and binary (base 2). An hexadecimal
 number is represented by *hexadecimal characters* taken from the set 
-{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F }. Letters can be upper
-cases or lower cases, it does not matter.
+`{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F }`. Letters can be in upper
+case or in lower case, it does not matter.
 
 We can map a single hexadecimal character to a decimal number and to a nibble.
 
