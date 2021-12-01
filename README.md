@@ -9,3 +9,7 @@ Notes are organized by themes in `notes/`. Each theme has its own sub-folder
 and each sub-folder contains a RMarkdown document along with a *compiled*
 version of it (named `README.md`) that can be rendered in Github's web
 interface. The format of the compiled document is *Github Flavored Markdown*.
+
+## Table of contents
+
+1. [Bits and bytes](https://github.com/jeanmathieupotvin/core-notes/blob/main/notes/bits-bytes/README.md)
