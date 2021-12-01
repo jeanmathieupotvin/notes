@@ -138,4 +138,4 @@ value. Example: `01, 00`. Any NA value is converted to `00`, the nul byte.
 Moreover, `ff = 0xff = 255` and `00 = 0x00 = 0`.
 
 Functions to manipulate bytes and bits are (mostly) described in
-`base::rawConversion`.
+`base::rawConversion`. **Beware! R orders bits and bytes from LSB to MSB.**
