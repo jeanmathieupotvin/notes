@@ -1,4 +1,4 @@
-## What is a bit
+# What is a bit
 
 The fundamental unit of information in computer science. The name is a
 contraction of the expression *binary digit*. A *bit* is a logical state
@@ -6,7 +6,7 @@ that has two possible values: either 0 or 1.
 
 The unit that represents a bit is usually *bit* or *b*.
 
-## What is a byte
+# What is a byte
 
 Most commonly, an ordered sequence of 8 bits. Historically, a *byte* was
 the number of bits used to encode a single character of text. For this
@@ -30,13 +30,13 @@ order is arbitrary, and a better way to label bits is from its MSB
 
 The unit that represents a byte is usually *B*.
 
-### Size
+## Size
 
 The biggest byte is `11111111`, which is equal to `(2 ^ 8 - 1) = 255` in
 decimal notation. Therefore, with one byte, you can represent any
 integer in the set `[0, 255]`.
 
-## What is a nibble
+# What is a nibble
 
 Simply, Half a byte. Most commonly, an ordered sequence of 4 bits. It
 has many other names: semi-octet, semi-byte, nybble, quartet, etc.
@@ -47,20 +47,20 @@ has many other names: semi-octet, semi-byte, nybble, quartet, etc.
 
 A nibble has no unit.
 
-### Size
+## Size
 
 The biggest nibble is `1111`, which is equal to `(2 ^ 4 - 1) = 15` in
 decimal notation. Therefore, with one nibble, you can represent any
 integer in the set `[0, 15]`.
 
-## What is an octet
+# What is an octet
 
 An octet is an ordered group of 8 bits. This word is used to
 disambiguate different implementation of the *byte* (that can be longer
 or shorter than 8 bits. Bytes and octets are used as part of larger
 collections / stream most of the time.
 
-## Representing bits, nibbles and bytes
+# Representing bits, nibbles and bytes
 
 Hexadecimal numbers are numbers represented under base 16. It is similar
 to other bases such as decimal (base 10) and binary (base 2). An
@@ -99,12 +99,12 @@ Hexadecimal numbers are usually written as `0x<...>` or `<...>hex`.
          = ( 16 * 15 ) + 15,
          = 255.
 
-### Using hexadecimal characters to represent bytes
+## Using hexadecimal characters to represent bytes
 
 A byte can be written as a sequence of 2 hexadecimal characters
 (preceded by `0x`). Each character represents a nibble.
 
-## Raw vectors in R
+# Raw vectors in R
 
 In R, a single `raw(1)` represents one byte written as two hexadecimal
 characters and without the usual `0x` prefix. This notation is called
