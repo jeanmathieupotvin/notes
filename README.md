@@ -13,3 +13,9 @@ interface. The format of the compiled document is *Github Flavored Markdown*.
 ## Table of contents
 
 1. [Bits and bytes](https://github.com/jeanmathieupotvin/core-notes/blob/main/notes/bits-bytes/README.md)
+
+## Errors and feedback
+
+If you read these notes and found an error you would like to communicate,
+please [write an issue](https://github.com/jeanmathieupotvin/core-notes/issues).
+I will gladly answer. Many thanks!
