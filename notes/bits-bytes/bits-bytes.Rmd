@@ -114,9 +114,9 @@ Hexadecimal numbers are usually written as `0x<...>` or `<...>hex`.
 ```
 # Example.
 
-0xff = ( (0x0f + 0x1) ^ 0x1 ) * 0x0f + 0x0f,
-     = ( (15   + 1  ) ^ 1   ) * 15   + 15,
-     = ( 16 * 15 ) + 15,
+0xff = ( (0x0f + 0x01) ^ 0x01 ) * 0x0f + 0x0f,
+     = ( (15   + 1   ) ^ 1    ) * 15   + 15,
+     = 16 * 15 + 15,
      = 255.
 ```
 
