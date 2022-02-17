@@ -1,4 +1,4 @@
-# core-notes
+# notes
 
 This project holds my personal notes taken from various sources. The focus is
 on computer science topics.
