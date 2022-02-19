@@ -1,13 +1,6 @@
 # notes
 
-This project holds my personal notes taken from various sources. The focus is
-on computer science topics.
-
-## Organization
-
-Notes are organized by themes in `notes/`. Each theme has its own sub-folder
-and each sub-folder contains a file named `README.md` that can be rendered in
-Github's web interface. The format of the document is *Github Flavored Markdown*.
+Collection of miscellaneous notes taken by myself on computer science topics.
 
 ## Table of contents
 
